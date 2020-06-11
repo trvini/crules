@@ -2,17 +2,17 @@
 
 void main(void)
 {
-	unsigned int ui_1;
-	signed int x,y;
+	unsigned char uc1;
+	signed char sc1,sc2;
 
-	x = (signed int)-1;
-	y = (signed int)0xffffff80;
+        sc1 = (signed char)-1;
+	sc2 = (signed char)-128;
 
-	ui_1 = 255;
+	uc1 = 255;
 
-	printf(" -1 in hex is : %x\n", x);
+	printf(" -1 in hex is : %4x\n", sc1);
 
-	printf(" 0x80 in decimal  is : %d\n",y);
+	printf(" -128  in hex  is : %x\n",sc2);
 
-	printf(" 255 unsigned int in hex is : %x\n",ui_1);
+	printf(" 255 unsigned int in hex is : %x\n",uc1);
 }
