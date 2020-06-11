@@ -7,7 +7,8 @@ main (void)
 {
 	int a;
 	printf ("Random value is %d",a);
-
+// additional comment
+//
 }
 
 
